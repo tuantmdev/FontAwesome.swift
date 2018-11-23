@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         barButton.title = String.fontAwesomeIcon(name: .github)
 
         // FontAwesome icon as image
-        imageView.image = UIImage.fontAwesomeIcon(name: .github, style: .brands, textColor: .black, size: CGSize(width: 4000, height: 4000))
+        imageView.image = UIImage.fontAwesomeIcon(code: "fal fa-globe-americas", textColor: UIColor.red, size: CGSize(width: 4000, height: 4000))
 
         // FontAwesome icon as image with background color
         imageViewColored.image = UIImage.fontAwesomeIcon(name: .github, style: .brands, textColor: .white, size: CGSize(width: 4000, height: 4000), backgroundColor: .black)

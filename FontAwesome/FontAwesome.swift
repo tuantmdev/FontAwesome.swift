@@ -191,6 +191,36 @@ public extension UIImage {
         guard let name = String.fontAwesome(code: code) else { return nil }
         return fontAwesomeIcon(name: name, style: style, textColor: textColor, size: size, backgroundColor: backgroundColor, borderWidth: borderWidth, borderColor: borderColor)
     }
+    
+    /// Get a FontAwesome image with the given 5.0.0 icon css code, text color, size and an optional background color.
+    ///
+    /// - parameter code: The preferred icon css code in version 5.0.0 and above. Eg: "fab fa-pinterest"
+    /// - parameter textColor: The text color.
+    /// - parameter size: The image size.
+    /// - parameter backgroundColor: The background color (optional).
+    /// - returns: A string that will appear as icon with FontAwesome
+    public static func fontAwesomeIcon(code: String, textColor: UIColor, size: CGSize, backgroundColor: UIColor = UIColor.clear, borderWidth: CGFloat = 0, borderColor: UIColor = UIColor.clear) -> UIImage? {
+        let styles = code.components(separatedBy: CharacterSet.whitespaces)
+        guard styles.count == 2 else {
+            return fontAwesomeIcon(code: code, style: .regular, textColor: textColor, size: size, backgroundColor: backgroundColor, borderWidth: borderWidth, borderColor: borderColor)
+        }
+        let styleCode = styles[0]
+        let fontCode = styles[1]
+        var style: FontAwesomeStyle = .regular
+        
+        switch styleCode {
+        case "fab":
+            style =  .brands
+        case "fas":
+            style = .solid
+        case "fal":
+            style = .light
+        default:
+            style = .regular
+        }
+        
+        return fontAwesomeIcon(code: fontCode, style: style, textColor: textColor, size: size, backgroundColor: backgroundColor, borderWidth: borderWidth, borderColor: borderColor)
+    }
 }
 
 // MARK: - Private
