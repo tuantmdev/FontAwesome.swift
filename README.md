@@ -1,12 +1,11 @@
 # FontAwesome.swift
 
-[![Build Status](http://img.shields.io/travis/thii/FontAwesome.swift.svg?style=flat)](https://travis-ci.org/thii/FontAwesome.swift)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/FontAwesome.swift.svg)](https://img.shields.io/cocoapods/v/FontAwesome.swift.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/FontAwesome.swift.svg?style=flat)](http://cocoadocs.org/docsets/FontAwesome.swift)
 [![License](https://img.shields.io/cocoapods/l/FontAwesome.swift.svg)](https://raw.githubusercontent.com/thii/FontAwesome.swift/master/LICENSE)
 
-Use Font Awesome in your Swift projects
+Use Font Awesome 5 Pro in your Swift projects
 
 To see the complete set of 3,978 icons in Font Awesome 5, please check the [FontAwesome.com](http://fontawesome.com/icons/) site.
 
@@ -17,14 +16,15 @@ To see the complete set of 3,978 icons in Font Awesome 5, please check the [Font
 
 ### Carthage
 
-    github "thii/FontAwesome.swift"
+    github "tuantmdev/FontAwesome.swift"
 
 ### CocoaPods
 
-    pod 'FontAwesome.swift'
+    pod 'FontAwesome.swift', :git => 'https://github.com/tuantmdev/FontAwesome.swift'
 
-**Note**: If you install this using CocoaPods, the framework name will be
-`FontAwesome_swift` (there is an underscore).
+**Note**: 
+- If you install this using CocoaPods, the framework name will be `FontAwesome_swift` (there is an underscore).
+- This repo does not include Font Awesome 5 Pro files. You have to include them by yourself, just drag and drop all `.otf` files into your project.
 
 ### Manually
 - Drag and drop all `.otf` and `.swift` files into your project
