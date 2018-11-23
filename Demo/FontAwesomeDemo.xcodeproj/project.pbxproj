@@ -7,53 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E5BDD8521A7E6AA007666AE /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E5BDD7921A7E4F3007666AE /* FontAwesome.framework */; };
 		8401A9541B398B5600269D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A9531B398B5600269D14 /* AppDelegate.swift */; };
 		8401A9561B398B5600269D14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A9551B398B5600269D14 /* ViewController.swift */; };
 		8401A9591B398B5600269D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401A9571B398B5600269D14 /* Main.storyboard */; };
 		8401A95B1B398B5600269D14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401A95A1B398B5600269D14 /* Images.xcassets */; };
 		8401A95E1B398B5600269D14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8401A95C1B398B5600269D14 /* LaunchScreen.xib */; };
-		CF090C471FBB7A7200BB8B4C /* FontAwesome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841575D61B39AB71001092B6 /* FontAwesome.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1025818D1C2B187200146E20 /* PBXContainerItemProxy */ = {
+		3E5BDD7821A7E4F3007666AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8401A8D11B39601400269D14;
-			remoteInfo = FontAwesome;
-		};
-		841575D51B39AB71001092B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
+			containerPortal = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8401A8D21B39601400269D14;
 			remoteInfo = FontAwesome;
 		};
-		841575D71B39AB71001092B6 /* PBXContainerItemProxy */ = {
+		3E5BDD7A21A7E4F3007666AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
+			containerPortal = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8401A8DD1B39601400269D14;
 			remoteInfo = FontAwesomeTests;
 		};
-		84669FA41F3D4C0A00EFCA99 /* PBXContainerItemProxy */ = {
+		3E5BDD7C21A7E4F3007666AE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DF4FB8E1E94581300F03B22;
-			remoteInfo = "FontAwesone-tvOS";
-		};
-		84DBFFAA1D8A7E5C002C4517 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
+			containerPortal = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 848937F91C6AF0660085F6D1;
 			remoteInfo = "FontAwesome-watchOS";
 		};
+		3E5BDD7E21A7E4F3007666AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DF4FB8E1E94581300F03B22;
+			remoteInfo = "FontAwesone-tvOS";
+		};
+		3E5BDD8321A7E528007666AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8401A8D11B39601400269D14;
+			remoteInfo = FontAwesome;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FontAwesome.xcodeproj; path = ../FontAwesome.xcodeproj; sourceTree = "<group>"; };
 		8401A94E1B398B5600269D14 /* FontAwesomeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAwesomeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401A9521B398B5600269D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8401A9531B398B5600269D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		8401A9581B398B5600269D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8401A95A1B398B5600269D14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8401A95D1B398B5600269D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FontAwesome.xcodeproj; path = ../FontAwesome.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,19 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF090C471FBB7A7200BB8B4C /* FontAwesome.framework in Frameworks */,
+				3E5BDD8521A7E6AA007666AE /* FontAwesome.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E5BDD7221A7E4F3007666AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E5BDD7921A7E4F3007666AE /* FontAwesome.framework */,
+				3E5BDD7B21A7E4F3007666AE /* FontAwesomeTests.xctest */,
+				3E5BDD7D21A7E4F3007666AE /* FontAwesome.framework */,
+				3E5BDD7F21A7E4F3007666AE /* FontAwesome.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8401A9451B398B5600269D14 = {
 			isa = PBXGroup;
 			children = (
 				8401A9501B398B5600269D14 /* FontAwesomeDemo */,
 				8401A94F1B398B5600269D14 /* Products */,
-				841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */,
+				3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */,
 				CF090C461FBB7A7200BB8B4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -115,17 +126,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		841575D11B39AB71001092B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				841575D61B39AB71001092B6 /* FontAwesome.framework */,
-				841575D81B39AB71001092B6 /* FontAwesomeTests.xctest */,
-				84DBFFAB1D8A7E5C002C4517 /* FontAwesome.framework */,
-				84669FA51F3D4C0A00EFCA99 /* FontAwesome.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF090C461FBB7A7200BB8B4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +147,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1025818E1C2B187200146E20 /* PBXTargetDependency */,
+				3E5BDD8421A7E528007666AE /* PBXTargetDependency */,
 			);
 			name = FontAwesomeDemo;
 			productName = FontAwesomeDemo;
@@ -182,8 +182,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 841575D11B39AB71001092B6 /* Products */;
-					ProjectRef = 841575D01B39AB71001092B6 /* FontAwesome.xcodeproj */;
+					ProductGroup = 3E5BDD7221A7E4F3007666AE /* Products */;
+					ProjectRef = 3E5BDD7121A7E4F3007666AE /* FontAwesome.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -194,32 +194,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		841575D61B39AB71001092B6 /* FontAwesome.framework */ = {
+		3E5BDD7921A7E4F3007666AE /* FontAwesome.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FontAwesome.framework;
-			remoteRef = 841575D51B39AB71001092B6 /* PBXContainerItemProxy */;
+			remoteRef = 3E5BDD7821A7E4F3007666AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		841575D81B39AB71001092B6 /* FontAwesomeTests.xctest */ = {
+		3E5BDD7B21A7E4F3007666AE /* FontAwesomeTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = FontAwesomeTests.xctest;
-			remoteRef = 841575D71B39AB71001092B6 /* PBXContainerItemProxy */;
+			remoteRef = 3E5BDD7A21A7E4F3007666AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84669FA51F3D4C0A00EFCA99 /* FontAwesome.framework */ = {
+		3E5BDD7D21A7E4F3007666AE /* FontAwesome.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FontAwesome.framework;
-			remoteRef = 84669FA41F3D4C0A00EFCA99 /* PBXContainerItemProxy */;
+			remoteRef = 3E5BDD7C21A7E4F3007666AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		84DBFFAB1D8A7E5C002C4517 /* FontAwesome.framework */ = {
+		3E5BDD7F21A7E4F3007666AE /* FontAwesome.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = FontAwesome.framework;
-			remoteRef = 84DBFFAA1D8A7E5C002C4517 /* PBXContainerItemProxy */;
+			remoteRef = 3E5BDD7E21A7E4F3007666AE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -250,10 +250,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1025818E1C2B187200146E20 /* PBXTargetDependency */ = {
+		3E5BDD8421A7E528007666AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FontAwesome;
-			targetProxy = 1025818D1C2B187200146E20 /* PBXContainerItemProxy */;
+			targetProxy = 3E5BDD8321A7E528007666AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
