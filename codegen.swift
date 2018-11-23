@@ -30,9 +30,10 @@ extension String {
     public func filteredKeywords() -> String {
         if self == "500px" {
             return "fiveHundredPixels"
-        }
-        if self == "subscript" {
+        } else if self == "subscript" {
             return "`subscript`"
+        } else if self == "repeat" {
+            return "`repeat`"
         }
         return self
     }

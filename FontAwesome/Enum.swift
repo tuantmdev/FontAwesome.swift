@@ -1293,7 +1293,7 @@ public enum FontAwesome: String {
     case redoAlt = "\u{f2f9}"
     case registered = "\u{f25d}"
     case renren = "\u{f18b}"
-    case repeat = "\u{f363}"
+    case `repeat` = "\u{f363}"
     case repeat1 = "\u{f365}"
     case repeat1Alt = "\u{f366}"
     case repeatAlt = "\u{f364}"

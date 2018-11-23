@@ -39,26 +39,31 @@ public enum FontAwesomeStyle: String {
     case solid
     case regular
     case brands
+    case light
 
     func fontName() -> String {
         switch self {
         case .solid:
-            return "FontAwesome5FreeSolid"
+            return "FontAwesome5ProSolid"
         case .regular:
-            return "FontAwesome5FreeRegular"
+            return "FontAwesome5ProRegular"
         case .brands:
             return "FontAwesome5BrandsRegular"
+        case .light:
+            return "FontAwesome5ProLight"
         }
     }
 
     func fontFilename() -> String {
         switch self {
         case .solid:
-            return "Font Awesome 5 Free-Solid-900"
+            return "Font Awesome 5 Pro-Solid-900"
         case .regular:
-            return "Font Awesome 5 Free-Regular-400"
+            return "Font Awesome 5 Pro-Regular-400"
         case .brands:
             return "Font Awesome 5 Brands-Regular-400"
+        case .light:
+            return "Font Awesome 5 Pro-Light-300"
         }
     }
 
@@ -67,8 +72,9 @@ public enum FontAwesomeStyle: String {
         case .brands:
             return "Font Awesome 5 Brands"
         case .regular,
+             .light,
              .solid:
-            return "Font Awesome 5 Free"
+            return "Font Awesome 5 Pro"
         }
     }
 }
